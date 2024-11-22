@@ -1,0 +1,19 @@
+{
+  "name": "Chicken Rain Tutorial",
+  "description": "Learn how to spawn chickens using JavaScript.",
+  "preferredEditor": "js",
+  "steps": [
+    {
+      "title": "Step 1: Create the Function",
+      "contentMd": "Create a function that spawns chickens.",
+      "code": "function spawnChickens() {\n    mobs.spawn(Mobs.chicken, player.position());\n}",
+      "hint": "Define the function using `function` and spawn chickens using `mobs.spawn`."
+    },
+    {
+      "title": "Step 2: Call the Function",
+      "contentMd": "Now, call the function by typing its name followed by parentheses.",
+      "code": "spawnChickens();",
+      "hint": "Make sure the function is called after it is defined."
+    }
+  ]
+}
